@@ -8,7 +8,7 @@ public class Assignment7_ConditionalStatement {
 	boolean isEmployed;
 	double debtToIncome;
 	
-	Assignment7_ConditionalStatement(String name,int creditScore,double income,boolean isEmployed,double debtToIncome){
+	 Assignment7_ConditionalStatement(String name,int creditScore,double income,boolean isEmployed,double debtToIncome){
 		this.creditScore =  creditScore;
 		this.income = income;
 		this.name = name;
@@ -75,7 +75,6 @@ public class Assignment7_ConditionalStatement {
 						System.out.println("Sorry !!! "+LoanApplicant.name+",Your Loan Application is Rejected - Debt to income ratio Check Failed");
 					}
 					
-					
 				}else {
 					System.out.println("Sorry !!! "+LoanApplicant.name+",Your Loan Application is Rejected - Employment Stauts Check Failed");
 				}
@@ -89,9 +88,6 @@ public class Assignment7_ConditionalStatement {
 		}
 		
 		
-		
-		
-
 	}
 
 }
