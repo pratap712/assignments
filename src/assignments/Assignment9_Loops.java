@@ -10,7 +10,7 @@ public class Assignment9_Loops {
 		double experience;
 		double rating;
 		
-		Assignment9_Loops(int empid,String name,double baseSalary,double experience,double rating){
+		 Assignment9_Loops(int empid,String name,double baseSalary,double experience,double rating){
 			
 			this.empid = empid ;
 			this.name = name;
