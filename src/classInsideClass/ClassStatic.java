@@ -26,7 +26,7 @@ public class ClassStatic {
 			String H = ClassStatic.ClassA.this.A; // Other way to Access A
 			String I = B; // Direct Access to static and non static member
 			// Access C of static Class B
-			String J = new ClassStatic.ClassA.ClassB().C;
+		//	String J = new ClassStatic.ClassA.ClassB().C;
 			// other way as static variable
 			String K = ClassB.C;
 			//non static member of ClassB so create obj to access

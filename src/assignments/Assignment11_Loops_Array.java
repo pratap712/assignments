@@ -54,7 +54,7 @@ public class Assignment11_Loops_Array {
 		 * Pattern should be as below.
 		 */
 		
-		Assignment11_Loops_Array.printPyramid(5);
+		Assignment11_Loops_Array.printPyramid(8);
 		
 		
 	}
