@@ -36,6 +36,8 @@ public class Assignment14_TimeToBuyStock {
 		
 		int [] prices = {7,1,5,3,6,4};
 		
+		System.out.println(prices.toString());
+		
 		System.out.println(maxprofit(prices));
 		
 

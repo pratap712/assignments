@@ -8,7 +8,6 @@ public class SecondLargestinList {
 
 		List<Integer> Li = new ArrayList<Integer>();
 		Li.addAll(Arrays.asList(1,2,3,4,76,43,23,12,53,65,68,90));
-			
 		TreeSet<Integer> Hash = new TreeSet<Integer>(); // sorted order 
 		Hash.addAll(Li);
 		
